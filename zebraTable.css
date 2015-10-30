@@ -1,0 +1,62 @@
+html {
+    background-color: black;
+}
+
+.banner {
+    margin-bottom: 25px;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 80%;
+    border-collapse: collapse;
+    max-width: 1600px;
+    min-width: 600px;
+}
+
+caption {
+    font-size: 45px;
+    padding-bottom: 10px;
+    background: white;
+    color: black;
+    border-left: black solid 35px;
+    border-right: black solid 35px;
+    border-bottom: black ridge 2px;
+}
+
+
+th {
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+
+
+
+table td {
+    border: 1px solid black;
+    text-align: center;
+    white-space: pre;
+    font-size: 15px;
+}
+
+td {
+    /*table-layout: auto;*/
+    height: 50px;
+    line-height: 55%;
+}
+
+table col:nth-child(odd) {
+    background-color: cornflowerblue;
+}
+
+tr:nth-child(odd) {
+    background-color: hsl(30, 5%, 80%);
+}
